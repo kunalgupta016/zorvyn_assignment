@@ -339,6 +339,11 @@ svg {
   outline: none;
 }
 
+.topbar__select option {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
 .topbar__select-icon {
   position: absolute;
   right: 0;
@@ -346,6 +351,20 @@ svg {
   transform: translateY(-50%);
   color: var(--color-text-muted);
   pointer-events: none;
+}
+
+.dark .topbar__role {
+  background: var(--color-surface-muted);
+  border-color: var(--color-border-strong);
+}
+
+.dark .topbar__select {
+  color: var(--color-text-primary);
+}
+
+.dark .topbar__select option {
+  background: #162338;
+  color: #eef4ff;
 }
 
 .page {
